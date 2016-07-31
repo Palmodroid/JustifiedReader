@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+        
+        <requestFocus />
+        
+    </ListView>
+    
+   	<!--TextView
+   	    android:id="@android:id/empty"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="match_parent"
+   	    android:text="@string/empty_list"
+   	    android:textAppearance="?android:attr/textAppearanceMedium"
+   	    android:textColor="#ff737373"
+   	    android:textStyle="italic" /-->
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="@string/search_hint" >
+    </EditText>
+
+</LinearLayout>

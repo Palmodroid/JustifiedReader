@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="DoIt"
+            android:text="@string/hajra" />
+        
+	   <TextView
+	        android:id="@+id/tx1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cimke_1"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/ed1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/hint_1" >
+
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/tx2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cimke_2"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/ed2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:hint="@string/hint_2" />
+	
+	    <TextView
+	        android:id="@+id/tx3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cimke_3"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/ed3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:hint="@string/hint_3" />
+	
+	    <TextView
+	        android:id="@+id/tx4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cimke_4"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/ed4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:hint="@string/hint_4" />
+	
+	    <TextView
+	        android:id="@+id/tx5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cimke_5"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/ed5"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:hint="@string/hint_5" />
+	
+	</LinearLayout>
+
+</ScrollView>

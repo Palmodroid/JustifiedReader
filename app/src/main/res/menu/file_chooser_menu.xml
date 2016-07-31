@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item 
+		android:id="@+id/menu_new_file" 
+		android:title="@string/menu_new_file"
+		android:orderInCategory="100" />
+	
+	<item 
+		android:id="@+id/menu_new_directory" 
+		android:title="@string/menu_new_directory"
+		android:orderInCategory="110" />
+
+</menu>

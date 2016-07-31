@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JustifiedReader</string>
+
+    <string name="title_activity_justified_text">JustifiedText</string>
+    <string name="button">Button</string>
+    <string name="szoveg">Szöveg</string>
+    <string name="kep">Kép</string>
+
+
+    
+    <!--string name="app_name">BiDictionary</string-->
+    <!--string name="directory">DroiDict</string-->
+
+    <string name="menu_change">Váltás</string>
+    <string name="menu_choosedictionary">Új adatbázis</string>
+    <string name="menu_addarticle">Szópár hozzáadása</string>
+
+    <string name="alert_dialog_title">Szótár</string>
+    <string name="alert_dialog_message">A szótár-file neve (.bic kiterjesztés nélkül):</string>
+    <string name="alert_dialog_ok">Rendben</string>
+    <string name="alert_dialog_cancel">Mégse</string>
+
+    <string name="add_article_dialog_title">Szószedet bővítése</string>
+    <string name="add_article_dialog_message">Add meg a kifejezést mindkét nyelven!</string>
+    <string name="add_article_dialog_ok">Add hozzá!</string>
+    <string name="add_article_dialog_cancel">Mégse</string>
+
+    <!--string name="empty_list">Nincs betöltött adatbázis...</string-->
+    <string name="search_hint">Keresett kifejezés</string>
+
+    <string name="english_title">Angol kifejezés:</string>
+    <string name="hungarian_title">Magyar kifejezés:</string>
+    <string name="verb">to (verb)</string>
+    <string name="non_verb">-- (non-verb)</string>
+
+    <!--string name="app_name">BiDictIndices</string-->
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bidictindices">BiDict</string>
+
+    <string name="start">Készíts ebbõl kétirányú index-file-t!</string>
+    <string name="cancel">Állítsd meg a feladatot!</string>
+
+    <string name="directory">DroiDict</string>
+    <string name="extension">".bic"</string>
+    <string name="info">"Célkönyvtár: "</string>
+    <string name="progress">" - "</string>
+    <string name="file">"File neve…"</string>
+
+    <string name="dialogMessage">Háttérszál fut…</string>
+    <string name="dialogCancelButton">Mégse</string>
+
+    <string name="err_task_started">"A feladat már elindult!"</string>
+    <string name="err_task_cancelled">"Nincs futó feladat!"</string>
+
+    <string name="msg_sdcard">"SD kártya nem írható!"</string>
+    <string name="msg_file">"Nem találom a forrás file-t!"</string>
+    <string name="msg_length">"A forrás-file túl hosszú, csak 2GB méretig tudok dolgozni!"</string>
+
+    <string name="msg_cancel">"Háttérfolyamat megszakítva!"</string>
+    <string name="msg_ready">"Háttérfolyamat befejeződött! Minden rendben!"</string>
+    
+    <string name="title_activity_proba_pad">ProbaPad</string>
+    <string name="hajra">Hajrá!</string>
+    <string name="cimke_1">Cimke 1</string>
+    <string name="cimke_2">Cimke 2</string>
+    <string name="cimke_3">Cimke 3</string>
+    <string name="cimke_4">Cimke 4</string>
+    <string name="cimke_5">Cimke 5</string>
+    <string name="hint_1">Szöveg 1</string>
+    <string name="hint_2">Szöveg 2</string>
+    <string name="hint_3">Szöveg 3</string>
+    <string name="hint_4">Szöveg 4</string>
+    <string name="hint_5">Szöveg 5</string>
+
+
+</resources>

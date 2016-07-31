@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_change"
+        android:title="@string/menu_change" />
+    
+    <item android:id="@+id/menu_choosedictionary"
+        android:title="@string/menu_choosedictionary" />
+    
+    <item android:id="@+id/menu_addarticle"
+        android:title="@string/menu_addarticle" />
+    
+</menu>
