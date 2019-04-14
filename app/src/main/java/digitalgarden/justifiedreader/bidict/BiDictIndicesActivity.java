@@ -1,6 +1,5 @@
 package digitalgarden.justifiedreader.bidict;
 
-import java.io.File;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -13,15 +12,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import digitalgarden.justifiedreader.*;
 
+import java.io.File;
+
+import digitalgarden.justifiedreader.R;
 
 /*
  * 
  * A FŐ ACTIVITY
  * 
  */
-public class BiDictIndicesActivity extends Activity 
+public class BiDictIndicesActivity extends Activity
 	{
 	TextView progressMeter;
 	EditText fileName;
@@ -89,7 +90,7 @@ public class BiDictIndicesActivity extends Activity
 
 	// A program belépési pontja
 	@Override
-	public void onCreate(Bundle savedInstanceState) 
+	public void onCreate(Bundle savedInstanceState)
 		{
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.activity_bi_dict_indices);
@@ -178,7 +179,7 @@ public class BiDictIndicesActivity extends Activity
 	
 	// Menü létrehozása - ezt most nem használjuk
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) 
+	public boolean onCreateOptionsMenu(Menu menu)
 		{
 	    getMenuInflater().inflate(R.menu.bi_dict_indices, menu);
 	    return true;

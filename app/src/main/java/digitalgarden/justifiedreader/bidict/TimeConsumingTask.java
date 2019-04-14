@@ -1,20 +1,23 @@
 package digitalgarden.justifiedreader.bidict;
 
 
-import android.app.*;
-import android.content.*;
-import android.os.*;
-import android.view.*;
-import digitalgarden.justifiedreader.*;
-import java.io.*;
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.os.AsyncTask;
+import android.view.View;
+import android.view.WindowManager;
 
+import java.io.IOException;
+
+import digitalgarden.justifiedreader.R;
 
 /*
  * 
  * A HÁTTÉRSZÁL FUTÁSÁÉRT FELELŐS OSZTÁLY
  * 
  */
-class TimeConsumingTask extends AsyncTask<String, Integer, String> 
+class TimeConsumingTask extends AsyncTask<String, Integer, String>
 	{
 	// Kapcsolat a "fő" szállal 
 	Context applicationContext;
